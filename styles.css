@@ -29,10 +29,10 @@ ul li{
 
 .header .mid-page{
     display: flex;
-    justify-content: center;
 }
 
 .hero{
+    margin: 1em;
     size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -41,4 +41,10 @@ ul li{
 .hero-secondary{
     size: 18px;
     color: #e5e7eb;
+}
+
+img{
+    flex:1;
+    max-width: 50%;
+    max-height: 50%;
 }
