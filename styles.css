@@ -26,3 +26,19 @@ ul li{
 .navbar{
     margin: 1em;
 }
+
+.header .mid-page{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary{
+    size: 18px;
+    color: #e5e7eb;
+}
