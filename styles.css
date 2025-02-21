@@ -1,50 +1,29 @@
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 .header{
-    display: flex;
-    font-family: sans-serif, Helvetica;
-    justify-content: space-between;
     background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
     font-size: 24px;
-    color: #F9FAF8;
-    margin: 1em;
+    margin: 8px;
 }
 
-ul li{
-    font-size: 18px;
-    color: #e5e7eb;
+li{
     display: inline-block;
     margin: 8px;
 }
 
-.navbar{
-    margin: 1em;
-}
-
-.header .mid-page{
-    display: flex;
-}
-
 .hero{
-    margin: 1em;
-    size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.hero-secondary{
-    size: 18px;
-    color: #e5e7eb;
-}
-
-img{
-    flex:1;
-    max-width: 50%;
-    max-height: 50%;
+    display: flex;
 }
