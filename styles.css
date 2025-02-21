@@ -12,18 +12,38 @@
 .header-top{
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .logo{
     font-size: 24px;
-    margin: 8px;
 }
 
 li{
     display: inline-block;
-    margin: 8px;
+    margin-left: 8px;
 }
 
 .hero{
     display: flex;
+    margin: 100px;
+}
+
+.hero-right, .hero-left{
+    flex-basis: 100%;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img{
+    max-height: 250px;
 }
