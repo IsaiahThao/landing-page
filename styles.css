@@ -60,10 +60,8 @@ img{
 }
 
 .boxes{
-    color:#1f2937;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
+    width: 150px;
+    margin: 20px;
 }
 
 .mid-page{
@@ -73,12 +71,60 @@ img{
 .mid-title{
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+}
+.box-container{
+    color:#1f2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+}
+.Quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: flex-end;
+    padding: 150px 200px;
+    flex-direction: column;
 }
 
-.square{
-    height: 100px;
-    width: 100px;
-    border: 5px solid blue;
+.Quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+
+.Quote-section .author{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 100px 150px;
     border-radius: 10px;
-    margin: 20px;
+}
+
+.call-left{
+    font-size: 36px;
+}
+
+.call-right{
+    color: white;
+    font-size: 18px;
+    padding: 0px 30px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border: 3px solid white
 }
